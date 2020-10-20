@@ -1,5 +1,5 @@
 ARG GO_VERSION=1.14.4
-FROM golang:${GO_VERSION}
+FROM golang:${GO_VERSION}-alpine
 
 WORKDIR /app/
 COPY *.go ./ 
